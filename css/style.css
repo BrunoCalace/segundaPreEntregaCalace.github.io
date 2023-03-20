@@ -156,6 +156,29 @@ h1 {
     width: 250px;
 }
 
+/*CONTACTO*/
+.siteContacto {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    border: 1px solid black !important;
+}
+
+.emailButton {
+    padding: 5px 5px;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+.contactoList {
+    list-style: none;
+    padding-right: 35px;
+}
+
 /*MEDIA QUERIES*/
 
 @media screen and (max-width:1024px) {

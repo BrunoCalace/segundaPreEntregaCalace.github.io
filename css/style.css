@@ -156,6 +156,14 @@ h1 {
     width: 250px;
 }
 
+.feriasGroup .box ul li {
+    list-style: none;
+}
+
+.feriasGroup .box ul li p {
+    text-align: center;
+}
+
 /*CONTACTO*/
 .siteContacto {
     margin-top: 45px;

@@ -3,6 +3,12 @@ body {
     min-height: 100vh;
 }
 
+/*NAVBAR*/
+.bg-propio {
+    background-color: rgb(248,129,129);
+    margin-bottom: 40px;
+}
+
 /*FOOTER*/
 .siteFooter {
     width: 100%;
@@ -72,12 +78,6 @@ body {
     }
 }
 
-/*NAVBAR*/
-.bg-propio {
-    background-color: rgb(248,129,129);
-    margin-bottom: 40px;
-}
-
 /*HOME*/
 h1 {
     text-align: center;
@@ -93,4 +93,22 @@ h1 {
 .text-home {
     text-align: center;
     font-size: 20px;
+}
+
+/*Taller*/
+.carousel-inner {
+    margin: auto;
+    max-width: 1200px;
+    max-height: 400px;
+}
+
+.container h2 {
+    margin-top: 45px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container p {
+    font-size: 20px;
+    margin-bottom: 45px;
 }

@@ -133,6 +133,7 @@ h1 {
 }
 
 /*FERIAS*/
+
 .siteFerias .feriasGroup  {
     width: 100%;
     max-width: 1200px;
@@ -143,14 +144,20 @@ h1 {
 
 .siteFerias .box figure {
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.siteFerias .box figure ul li p {
+    max-width: 90%;
+    margin: auto;
+}
+
+.siteFerias .box figure ul li iframe {
+    max-width: 90%;
+    margin: auto;
 }
 
 .accordionFerias {
-    max-width: 350px;
+    min-width: 100%;
 }
 
 .feriasList {

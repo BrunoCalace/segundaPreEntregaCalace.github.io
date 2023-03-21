@@ -152,11 +152,11 @@ h1 {
     align-items: center;
 }
 
-.siteFerias .box figure iframe {
-    width: 250px;
+.accordionFerias {
+    max-width: 350px;
 }
 
-.feriasGroup .box ul li {
+.feriasList {
     list-style: none;
 }
 
@@ -192,9 +192,16 @@ h1 {
 @media screen and (max-width:1024px) {
     .accordion-body .accordion-group{
         width: 90%;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap:30px;
-    padding: 35px 0px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+
+    .siteFerias .feriasGroup{
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
     }
 }
 
@@ -210,14 +217,36 @@ h1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
+        padding: 0px 0px;
+    }
+
+    .siteFerias .feriasGroup {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .siteFooter .grupo1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
         padding: 35px 0px;
+    }
+
+    .accordion-body .accordion-group .box {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding-left: 20px;
     }
     
     .siteFerias .feriasGroup {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
-        padding: 35px 0px;
+        padding-right: 20px;
     }
 }
 
@@ -226,14 +255,13 @@ h1 {
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
-        padding: 0px 0px;
     }
 
     .siteFerias .feriasGroup {
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
-        padding: 0px 0px;
+        margin-bottom: 0;
     }
 }
 

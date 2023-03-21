@@ -108,7 +108,7 @@ h1 {
 /*Productos*/
 .accordion-button {
     background-color: rgb(248,129,129) !important;
-    max-width: 90% !important;
+    width: 90% !important;
     margin: auto;
 }
 
@@ -117,7 +117,7 @@ h1 {
 }
 
 .accordion-body .accordion-group  {
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
     margin: auto;
     display: grid;
@@ -133,7 +133,7 @@ h1 {
 }
 
 .accordion-body .box figure img {
-    width: 250px;
+    width: 90%;
 }
 
 /*FERIAS*/
@@ -151,17 +151,16 @@ h1 {
 }
 
 .siteFerias .box figure ul li p {
-    max-width: 90%;
     margin: auto;
 }
 
 .siteFerias .box figure ul li iframe {
-    max-width: 90%;
     margin: auto;
 }
 
 .accordionFerias {
-    min-width: 100%;
+    width: 100%;
+    margin: auto;
 }
 
 .feriasList {
@@ -205,17 +204,17 @@ h1 {
 
     .accordion-body .accordion-group .box {
         margin: auto;
-        min-width: 80%;
+        width: 80%;
     }
 
     .siteFerias .feriasGroup{
-        width: 90%;
         grid-template-columns: repeat(2, 1fr);
+        width: 100%;
     }
 
     .siteFerias .feriasGroup .accordionFerias {
         margin: auto;
-        min-width: 80%;
+        width: 100%;
     }
 }
 
@@ -227,7 +226,7 @@ h1 {
 
     .accordion-body .accordion-group .box {
         margin: auto;
-        min-width: 80%;
+        width: 80%;
     }
 
     .accordion-body .accordion-group {
@@ -236,13 +235,14 @@ h1 {
     }
 
     .siteFerias .feriasGroup {
-        width: 90%;
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
     }
 
     .siteFerias .feriasGroup .accordionFerias {
+        width: 100%;
         margin: auto;
-        min-width: 80%;
+       
     }
 }
 
@@ -254,7 +254,7 @@ h1 {
 
     .accordion-body .accordion-group .box {
         margin: auto;
-        min-width: 80%;
+        width: 80%;
     }
 
     .accordion-body .accordion-group {
@@ -263,13 +263,18 @@ h1 {
     }
     
     .siteFerias .feriasGroup {
-        width: 90%;
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
     }
 
     .siteFerias .feriasGroup .accordionFerias {
         margin: auto;
-        min-width: 80%;
+        width: 100%;
+    }
+
+    .feriasList iframe {
+        width: 100%;
+        margin: auto;
     }
 }
 

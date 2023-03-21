@@ -67,27 +67,17 @@ body {
 }
 
 /*Carousel*/
+.carousel-slide .homeCarousel {
+    max-width: 80%;
+    max-height: 1000px;
+}
+
 .carousel-inner {
     max-width: 100%;
     max-height: 500px;
 }
 
 /*HOME*/
-h1 {
-    text-align: center;
-}
-.row {
-    align-items: center;
-}
-
-.img-home {
-    padding-bottom: 30px;
-}
-
-.text-home {
-    text-align: center;
-    font-size: 20px;
-}
 
 /*Taller*/
 .container h2 {
@@ -188,7 +178,7 @@ h1 {
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:992px) {
     .accordion-body .accordion-group{
         width: 90%;
         grid-template-columns: repeat(2, 1fr);
@@ -204,7 +194,7 @@ h1 {
     }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
     .siteFooter .grupo1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
@@ -226,7 +216,7 @@ h1 {
     }
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:576px){
     .siteFooter .grupo1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
@@ -238,30 +228,12 @@ h1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
-        padding-left: 20px;
     }
     
-    .siteFerias .feriasGroup {
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;
-        padding-right: 20px;
-    }
-}
-
-@media screen and (max-width:300px) {
-    .accordion-body .accordion-group{
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;
-    }
-
     .siteFerias .feriasGroup {
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
-        margin-bottom: 0;
+        margin-left: 120px;
     }
 }
-
-    

@@ -104,6 +104,8 @@ h1 {
 /*Productos*/
 .accordion-button {
     background-color: rgb(248,129,129) !important;
+    max-width: 90% !important;
+    margin: auto;
 }
 
 .accordion-item {
@@ -116,8 +118,6 @@ h1 {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:150px;
-    padding: 45px 0px;
 }
 
 .accordion-body .box figure {
@@ -139,8 +139,6 @@ h1 {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:150px;
-    padding: 45px 0px;
 }
 
 .siteFerias .box figure {
@@ -189,18 +187,24 @@ h1 {
 /*MEDIA QUERIES*/
 
 @media screen and (max-width:992px) {
-    .accordion-body .accordion-group{
+    .accordion-body .accordion-group {
         width: 90%;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap:30px;
-        padding: 35px 0px;
+    }
+
+    .accordion-body .accordion-group .box {
+        margin: auto;
+        min-width: 80%;
     }
 
     .siteFerias .feriasGroup{
         width: 90%;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap:30px;
-        padding: 35px 0px;
+    }
+
+    .siteFerias .feriasGroup .accordionFerias {
+        margin: auto;
+        min-width: 80%;
     }
 }
 
@@ -208,21 +212,26 @@ h1 {
     .siteFooter .grupo1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;
-        padding: 35px 0px;
+    }
+
+    .accordion-body .accordion-group .box {
+        margin: auto;
+        min-width: 80%;
     }
 
     .accordion-body .accordion-group {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;
-        padding: 0px 0px;
     }
 
     .siteFerias .feriasGroup {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;
+    }
+
+    .siteFerias .feriasGroup .accordionFerias {
+        margin: auto;
+        min-width: 80%;
     }
 }
 
@@ -230,21 +239,26 @@ h1 {
     .siteFooter .grupo1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;
-        padding: 35px 0px;
     }
 
     .accordion-body .accordion-group .box {
+        margin: auto;
+        min-width: 80%;
+    }
+
+    .accordion-body .accordion-group {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;
     }
     
     .siteFerias .feriasGroup {
-        width: 100%;
+        width: 90%;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;
-        margin-left: 120px;
+    }
+
+    .siteFerias .feriasGroup .accordionFerias {
+        margin: auto;
+        min-width: 80%;
     }
 }
 

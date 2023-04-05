@@ -118,17 +118,28 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-.siteContacto .col-lg-6 .contactoRow .form-control {
+.siteContacto .contactoRow .form-control {
   border: 1px solid black !important;
 }
-.siteContacto .col-lg-6 .contactoRow .emailButton {
+.siteContacto .contactoRow .emailButton {
   padding: 5px 5px;
   border: 1px solid black;
   margin-top: 15px;
 }
-.siteContacto .col-lg-6 ul .contactoList {
+.siteContacto ul .contactoList {
   list-style: none;
   padding-right: 35px;
+}
+
+.container h2 {
+  margin-top: 45px;
+  text-align: center;
+  text-decoration: underline;
+}
+.container p {
+  font-size: 20px;
+  margin-bottom: 45px;
+  text-align: center;
 }
 
 body {

@@ -5,6 +5,8 @@
 @import 'productos';
 @import 'ferias';
 @import 'contacto';
+@import 'taller';
+
 body {
     background-color: rgb(243,238,195) !important;
 }
@@ -13,4 +15,5 @@ body {
     max-width: 100%;
     max-height: 500px;
 }
+
 @import 'mediaQ';

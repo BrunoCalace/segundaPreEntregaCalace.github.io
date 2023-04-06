@@ -120,10 +120,9 @@ h1 {
   justify-content: center;
   align-content: center;
   align-items: center;
-  background: linear-gradient(rgb(248, 129, 129), rgb(243, 238, 195));
 }
 .boxFerias img {
-  width: 95%;
+  width: 100%;
 }
 
 .siteFerias .feriasGroup {

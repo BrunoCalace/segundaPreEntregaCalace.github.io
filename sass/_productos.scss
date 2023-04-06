@@ -1,5 +1,7 @@
+@import 'vars';
+
 .accordion-item {
-    background-color: rgb(243,238,195) !important;
+    background-color: $beigeVive !important;
     .accordion-header {
         .accordion-button {
             background-color: $rojoVive !important;

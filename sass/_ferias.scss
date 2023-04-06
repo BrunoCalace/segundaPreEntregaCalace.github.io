@@ -1,3 +1,14 @@
+.boxFerias {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: linear-gradient($rojoVive, $beigeVive);
+    img {
+        width: 95%;
+    }
+}
+
 .siteFerias {
     .feriasGroup {
         width: 100%;

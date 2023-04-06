@@ -28,5 +28,10 @@
                 margin: auto;
             }
         }
+        .flex-item:hover {
+            transform: scale(1.5);
+            transition: all 1s;
+            margin: 100px 50px;
+        }
     }
 }

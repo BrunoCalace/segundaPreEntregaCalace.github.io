@@ -1,5 +1,17 @@
 @import 'vars';
 
+.boxBannerp {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    img {
+        width: 100%;
+    }
+}
 .accordion-item {
     background-color: $beigeVive !important;
     .accordion-header {
